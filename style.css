@@ -149,8 +149,8 @@ header section css
 }
 .price{
     position: absolute;
-    bottom: 0px;
-    left: 50px;
+    bottom: 0%;
+    left: 15%;
     
 }
 /************************
@@ -552,8 +552,8 @@ formr section css here
 }
 .owl-dots{
     position: absolute;
-    bottom: 35px;
-    left: 35px;
+    bottom: 15%;
+    left: 3%;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #ffaa00;
