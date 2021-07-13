@@ -258,12 +258,15 @@ order-list section css here
     text-align: center;
     box-shadow: 3px 8px 5px 10px  #eee;
     border-radius: 8px;
+    transition: .2s;
+
 }
 .items:first-child{
     margin-left: 0;
 }
 .items:hover{
      box-shadow: 0px 10px 5px 10px #b9aaaa;
+    transition: .2s;
 }
 .items img{
     max-width: 100%; 
@@ -313,6 +316,8 @@ order-list section css here
     left: 0;
     background: linear-gradient(180deg, rgba(191,34,34,1) 0%, rgba(2,0,36,1) 100%);
     z-index: -1;
+    transition: .2s cubic-bezier(0.5, 0.51, 0.5, 0.51);
+
 }
 .items button:hover::before{
     width: 50%;
@@ -327,6 +332,8 @@ order-list section css here
     left: 50%;
     background: linear-gradient(180deg, rgba(191,34,34,1) 0%, rgba(2,0,36,1) 100%);
     z-index: -1;
+    transition: .2s cubic-bezier(0.5, 0.51, 0.5, 0.51);
+
 }
 .items button:hover::after{
     width: 50%;
@@ -439,6 +446,8 @@ formr section css here
     left: 0;
     background: linear-gradient(180deg, rgba(191,34,34,1) 0%, rgba(2,0,36,1) 100%);
     z-index: -1;
+    transition: .2s cubic-bezier(0.5, 0.51, 0.5, 0.51);
+
 }
 .s-btn:hover::before{
     width: 50%;
@@ -453,6 +462,8 @@ formr section css here
     left: 50%;
     background: linear-gradient(180deg, rgba(191,34,34,1) 0%, rgba(2,0,36,1) 100%);
     z-index: -1;
+    transition: .2s cubic-bezier(0.5, 0.51, 0.5, 0.51);
+
 }
 .s-btn:hover::after{
     width: 50%;
